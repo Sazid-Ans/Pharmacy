@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36518.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "CatalogService\CatalogService.csproj", "{FD653ED6-04E3-44EE-BAB5-164FB290ACD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogService", "CatalogService\CatalogService.csproj", "{FD653ED6-04E3-44EE-BAB5-164FB290ACD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriptionService", "PrescriptionService\PrescriptionService.csproj", "{0C1EF127-2EB5-4BDD-BBA2-EE32E42B6259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrescriptionService", "PrescriptionService\PrescriptionService.csproj", "{0C1EF127-2EB5-4BDD-BBA2-EE32E42B6259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{E536480E-5C87-4F89-A2EF-EB537CBF5091}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService\OrderService.csproj", "{E536480E-5C87-4F89-A2EF-EB537CBF5091}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserIdentityService", "UserIdentityService\UserIdentityService\UserIdentityService.csproj", "{BEE43530-EC4D-15A2-7E86-7B4C91E8626C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{E1EC7DF8-27C9-437E-9094-158A6E444B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentService", "PaymentService\PaymentService.csproj", "{00EBA412-738B-49C1-8FF4-BB0A0E905FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryService", "DeliveryService\DeliveryService.csproj", "{8AF3BEE0-5AB7-41C0-8593-D758A41BF62E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{BEE43530-EC4D-15A2-7E86-7B4C91E8626C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE43530-EC4D-15A2-7E86-7B4C91E8626C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEE43530-EC4D-15A2-7E86-7B4C91E8626C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1EC7DF8-27C9-437E-9094-158A6E444B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1EC7DF8-27C9-437E-9094-158A6E444B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1EC7DF8-27C9-437E-9094-158A6E444B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1EC7DF8-27C9-437E-9094-158A6E444B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00EBA412-738B-49C1-8FF4-BB0A0E905FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00EBA412-738B-49C1-8FF4-BB0A0E905FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00EBA412-738B-49C1-8FF4-BB0A0E905FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00EBA412-738B-49C1-8FF4-BB0A0E905FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AF3BEE0-5AB7-41C0-8593-D758A41BF62E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AF3BEE0-5AB7-41C0-8593-D758A41BF62E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AF3BEE0-5AB7-41C0-8593-D758A41BF62E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AF3BEE0-5AB7-41C0-8593-D758A41BF62E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
