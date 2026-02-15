@@ -5,11 +5,11 @@ VisualStudioVersion = 17.14.36518.9 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserIdentityService", "UserIdentityService\UserIdentityService.csproj", "{411A2A08-6821-43F1-A122-FC44443882E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "..\CatalogService\CatalogService.csproj", "{FD653ED6-04E3-44EE-BAB5-164FB290ACD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "CatalogService\CatalogService.csproj", "{FD653ED6-04E3-44EE-BAB5-164FB290ACD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriptionService", "..\PrescriptionService\PrescriptionService.csproj", "{0C1EF127-2EB5-4BDD-BBA2-EE32E42B6259}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrescriptionService", "PrescriptionService\PrescriptionService.csproj", "{0C1EF127-2EB5-4BDD-BBA2-EE32E42B6259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "..\OrderService\OrderService.csproj", "{E536480E-5C87-4F89-A2EF-EB537CBF5091}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{E536480E-5C87-4F89-A2EF-EB537CBF5091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
