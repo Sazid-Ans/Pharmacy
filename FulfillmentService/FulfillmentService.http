@@ -1,0 +1,6 @@
+@FulfillmentService_HostAddress = http://localhost:5095
+
+GET {{FulfillmentService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

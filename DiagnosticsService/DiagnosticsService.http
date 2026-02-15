@@ -1,0 +1,6 @@
+@DiagnosticsService_HostAddress = http://localhost:5073
+
+GET {{DiagnosticsService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
